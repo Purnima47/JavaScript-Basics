@@ -1,4 +1,4 @@
-// print 1 to 10 with delay of 1sec after each number gets printed
+// print 1 to 10 with delay of 1sec after each number gets printed.
 
 // for (let i = 1; i <= 10; i++) {
 //     setTimeout(function () {

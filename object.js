@@ -7,7 +7,6 @@ let details = {
 }
 
 // console.log(details);
-
 // console.log(details['name']); // or details.name
 
 //  for in loop

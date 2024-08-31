@@ -5,3 +5,4 @@ function oneToN(n) {
 }
 
 // Math.cbrt(5);  //cube root
+// Math.log10(100);

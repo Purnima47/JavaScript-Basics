@@ -4,6 +4,7 @@ setTimeout(function () {
     div.innerHTML = "Anshi"
 }, 2000);
 
+
 // EVENT LISTENERS
 div.addEventListener("mouseenter", function () {
     let r = Math.floor(Math.random() * 256);

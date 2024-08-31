@@ -9,6 +9,7 @@ function twice(ele) {
 function square(ele) {
     return ele * ele;
 }
+
 // method - 1
 let brr = arr.map(square);
 console.log(brr);
