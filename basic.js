@@ -75,3 +75,10 @@ let n = 20;
 let twoDArr = new Array(m).fill(0).map(() => new Array(n).fill(0));
 console.log(twoDArr);
 
+
+// to compare two arrays use
+if(JSON.stringify(arr) == JSON.stringify(arr2)){
+    console.log("matched");
+}else{
+    console.log("not equal");
+}
