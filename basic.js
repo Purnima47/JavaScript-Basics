@@ -67,3 +67,11 @@ let str = stringArr.join("");
 console.log(str);
 
 // TEMPLATE LITERALS (use backticks , variable -> ${})
+
+
+// initialize 2-D Array
+let m = 10;
+let n = 20;
+let twoDArr = new Array(m).fill(0).map(() => new Array(n).fill(0));
+console.log(twoDArr);
+
