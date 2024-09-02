@@ -2,7 +2,7 @@
 
 let details = {
     name: "Anshika Tyagi",
-    age: 20,
+    age: 19,
     percentage: "idk",
 }
 
