@@ -12,6 +12,22 @@ console.log(a);
 // typeof
 console.log(typeof (a));
 
+// BIGINT
+var big_num = 123n;
+// n represents that it is a valid big number/int.
+
+console.log(typeof (NaN)); // number
+
+// console.log(typeof(null)); //object (which is a bug)
+
+// undefined --> defined a variable but haven't assigned the val
+// null --> you don't want to assign the val purposefully
+
+// Symbol
+// var s1 = Symbol() //Constructor
+
+
+
 // tripleEqualTo (===) : yeh value aur type dekhta hai but  (==) sirf value dekhta hai type nhi.
 
 // ARRAYS
@@ -77,8 +93,8 @@ console.log(twoDArr);
 
 
 // to compare two arrays use
-if(JSON.stringify(arr) == JSON.stringify(arr2)){
+if (JSON.stringify(arr) == JSON.stringify(arr2)) {
     console.log("matched");
-}else{
+} else {
     console.log("not equal");
 }
