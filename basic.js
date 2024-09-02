@@ -1,4 +1,11 @@
-// js me ek ek line compile hokr run hoti hai.
+// js me ek // STRING --> ARRAY
+let s = "Hi I AM a String";
+let stringArr = s.split(" ");
+console.log(stringArr);
+
+// ARRAY --> STRING
+let str = stringArr.join("");
+console.log(str);ek line compile hokr run hoti hai.
 // var  and let me scope ka difference aata hai.
 
 // REDEFITNITION of variable is possible in JS
@@ -73,14 +80,7 @@ arr.forEach((ele, idx, array) => {
 // slice(i)  -> substring from index i to end
 // slice(i,j) -> substring from index i to index j-1
 
-// STRING --> ARRAY
-let s = "Hi I AM a String";
-let stringArr = s.split(" ");
-console.log(stringArr);
 
-// ARRAY --> STRING
-let str = stringArr.join("");
-console.log(str);
 
 // TEMPLATE LITERALS (use backticks , variable -> ${})
 
