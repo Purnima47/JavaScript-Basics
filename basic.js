@@ -1,11 +1,4 @@
-// js me ek // STRING --> ARRAY
-let s = "Hi I AM a String";
-let stringArr = s.split(" ");
-console.log(stringArr);
-
-// ARRAY --> STRING
-let str = stringArr.join("");
-console.log(str);ek line compile hokr run hoti hai.
+// js me ek ek line compile hokr run hoti hai.
 // var  and let me scope ka difference aata hai.
 
 // REDEFITNITION of variable is possible in JS
@@ -53,6 +46,15 @@ const arr2 = [5, 3, 4];
 // but if we are assigning const to other than array then we can't make any changes to it. It remains const throughout.
 
 console.log(arr2);
+
+// STRING --> ARRAY
+let s = "Hi I AM a String";
+let stringArr = s.split(" ");
+console.log(stringArr);
+
+// ARRAY --> STRING
+let str = stringArr.join("");
+console.log(str);
 
 // array --> different data types bhi ho skte h (number, boolean, array, decimal, etc).
 // typeof array --> object
