@@ -18,11 +18,21 @@ console.log(x, y, z);
 const person = {
     name: "Anshika Tyagi",
     age: 19,
-    city: "Greater Noida"
+    city: "Greater Noida",
+    expertIn: {
+        game: "badminton",
+        mobile: "pubg",
+        subject: "mathematics"
+    }
 }
 
 // variable names must match with the key of the object
-const { age, name, hobby } = person;
+// const { age, name, hobby, expertIn } = person;
+// console.log(name, age, hobby, expertIn);
+// O/P : Anshika Tyagi 19 undefined { game: 'badminton', mobile: 'pubg', subject: 'mathematics' }
 
-console.log(name, age, hobby);
-// O/P : Anshika Tyagi 19 undefined
+
+const { age, name, hobby, expertIn: { subject, game } } = person;
+console.log(name, age, hobby, subject);
+// O/P : Anshika Tyagi 19 undefined mathematics
+// if we print expertIn then it will show error since we have destruct it.
