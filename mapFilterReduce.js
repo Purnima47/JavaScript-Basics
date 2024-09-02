@@ -50,5 +50,3 @@ console.log(arr2.sort((a, b) => (b - a)));  // using comparator (custom sorting)
 
 // absolute sort
 console.log(arr2.sort((a, b) => Math.abs(a) - Math.abs(b)));
-
-
