@@ -19,4 +19,15 @@ console.log(full_name.slice(-5, -1));
 let sen = "ghs jkgnosng igoeg";
 console.log(sen.split(" "));
 
+// string to int:
+let s = "1245";
+let n = Number(s);
+// int to string:
+let str = n.toString();
+console.log(n, str);
 
+// to find the ascii value of a character
+for (let i = 0; i < s.length; i++) {
+    const el = s.charCodeAt(i);
+    console.log(el);
+}
