@@ -52,10 +52,21 @@ const f3Promise = new Promise((resolve, reject) => {
     }, 3000);
 });
 
+// if all promises are fulfilled --> then otherwise catch
 Promise.all([f1Promise, f2Promise, f3Promise]).then((msg) => {
     console.log("Msg: ", msg);
     console.log("Yeah!");
 }).catch((msg) => {
     console.log("Msg: ", msg);
     console.log(":-(");
-})
+});
+
+
+// // if any one of the promises is fulfilled  --> then otherwise catch.
+// Promise.any([f1Promise, f2Promise, f3Promise]).then((result) => {
+//     console.log("Result ", result);
+//     console.log("Yeah!");
+// }).catch((msg) => {
+//     console.log("Msg: ", msg);
+//     console.log(":-(");
+// });
